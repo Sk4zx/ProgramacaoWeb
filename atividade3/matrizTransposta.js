@@ -1,5 +1,5 @@
 function transporMatriz(A) {
-    // Imprimir a matriz original
+
     console.log("Matriz Original:");
     console.log(imprimirMatriz(A));
 
@@ -12,7 +12,7 @@ function transporMatriz(A) {
         }
     }
 
-    // Imprimir a matriz transposta
+
     console.log("Matriz Transposta:");
     console.log(imprimirMatriz(transposta));
 }
@@ -21,7 +21,7 @@ function imprimirMatriz(matriz) {
     return matriz.map(row => row.join("\t")).join("\n");
 }
 
-// Exemplo de uso:
+
 const matriz = [
     [1, 2, 3],
     [4, 5, 6],
